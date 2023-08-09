@@ -1,0 +1,14 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "sample-app": {
+      "appLocation": "SampleApp/Client",
+      "outputLocation": "bin/wwwroot",
+      "appBuildCommand": "dotnet publish -c Release -o bin",
+      "run": "dotnet watch run",
+      "appDevserverUrl": "http://localhost:8000",
+      "appName": "swa-swa-hol-eastus2-001",
+      "resourceGroup": "rg-swa-hol-eastus2-001"
+    }
+  }
+}
